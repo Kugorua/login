@@ -1,0 +1,32 @@
+.form-login__input {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 0 20px 0;
+  animation: showform linear 0.5s;
+  transform-origin: 50% 50%;
+  label {
+    color: black;
+    text-align: left;
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-end;
+    font-style: italic;
+    font-weight: bold;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  input {
+    padding: 15px 15px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(98, 147, 21);
+    font-size: 18px;
+    &:focus {
+      border: 1px solid black;
+      box-shadow: 0px 0px 15px yellowgreen;
+    }
+  }
+}
